@@ -1,0 +1,6 @@
+{
+  "name": "ARIA — Installation en Allemagne",
+  "description": "Application d'accompagnement pour jeunes francophones s'installant en Allemagne : démarches administratives, carte interactive, aide aux documents, allemand pratique et liens avec Madagascar.",
+  "requestFramePermissions": ["geolocation", "camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

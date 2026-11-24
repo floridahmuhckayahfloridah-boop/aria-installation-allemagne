@@ -1,0 +1,26 @@
+PATCH ARIA — INTERFACE DU CHAT
+Date : 21/11/2026
+
+Fichier remplacé :
+src/components/ai/AIAssistantModal.tsx
+
+Corrections incluses :
+- meilleure lisibilité des messages (taille, interligne et largeur) ;
+- liens HTTP(S) cliquables et ouvrant un nouvel onglet ;
+- adresses e-mail cliquables ;
+- numéros d'urgence 112, 110, 116117 et 116123 mis en évidence et cliquables ;
+- sources affichées sans troncature forcée ;
+- zone de conversation avec hauteur flexible et défilement vertical ;
+- bouton d'envoi agrandi à 44 x 44 px ;
+- zone de saisie adaptée aux petits écrans et au safe-area inférieur.
+
+Installation :
+1. Faites une copie de sauvegarde du fichier actuel.
+2. Extrayez le contenu de cette archive à la racine du projet ARIA (le dossier qui contient package.json).
+3. Acceptez le remplacement du seul fichier indiqué ci-dessus.
+4. Dans PowerShell, exécutez : npm run lint
+5. Puis : npm run build
+6. Lancez npm run dev et testez le chat sur smartphone et ordinateur.
+
+Cette archive ne modifie ni server.ts, ni les clés/secrets, ni les autres rubriques.
+Elle ne configure pas Gemini et ne change pas le moteur de réponses.
